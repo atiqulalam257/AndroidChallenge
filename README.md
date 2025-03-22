@@ -107,7 +107,7 @@ The project follows **MVVM (Model-View-ViewModel) architecture** for clean separ
 ## 🔗 Useful Libraries & Resources
 - **Retrofit:** [Documentation](https://square.github.io/retrofit/)
 - **OkHttp:** [Documentation](https://square.github.io/okhttp/)
-- **Dagger:** [Documentation](https://github.com/google/dagger)
+- **Hilt:** [Documentation](https://developer.android.com/training/dependency-injection/hilt-android)
 - **RxJava:** [Documentation](https://github.com/ReactiveX/RxJava)
 - **Glide:** [Documentation](https://bumptech.github.io/glide/)
 
