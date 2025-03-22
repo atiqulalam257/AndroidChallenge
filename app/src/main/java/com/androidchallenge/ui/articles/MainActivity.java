@@ -1,7 +1,6 @@
-package com.androidchallenge.ui;
+package com.androidchallenge.ui.articles;
 
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
@@ -14,7 +13,8 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import com.androidchallenge.R;
 import com.androidchallenge.data.prefrences.SharedPreferencesHelper;
 import com.androidchallenge.databinding.ActivityMainBinding;
-import com.androidchallenge.di.AppModule;
+import com.androidchallenge.ui.article.ArticleDetailActivity;
+import com.androidchallenge.ui.ArticlesViewModel;
 import com.androidchallenge.utils.ImageLoaderUtils;
 import com.androidchallenge.utils.NetworkLiveData;
 import com.androidchallenge.utils.NetworkUtils;
@@ -24,10 +24,7 @@ import java.io.IOException;
 import javax.inject.Inject;
 
 import dagger.hilt.android.AndroidEntryPoint;
-import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers;
-import io.reactivex.rxjava3.disposables.CompositeDisposable;
 import io.reactivex.rxjava3.disposables.Disposable;
-import io.reactivex.rxjava3.schedulers.Schedulers;
 
 @AndroidEntryPoint
 public class MainActivity extends AppCompatActivity {

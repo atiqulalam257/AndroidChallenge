@@ -1,21 +1,18 @@
-package com.androidchallenge.ui;
+package com.androidchallenge.ui.article;
 
 import android.os.Bundle;
 import android.view.Window;
 import android.view.WindowManager;
-import android.widget.Toast;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
-import androidx.lifecycle.Observer;
 
 import com.androidchallenge.R;
 import com.androidchallenge.data.model.Article;
 import com.androidchallenge.databinding.ActivityArticleDetailBinding;
 import com.androidchallenge.utils.DateUtils;
 import com.androidchallenge.utils.ImageLoaderUtils;
-import com.androidchallenge.utils.NetworkLiveData;
 
 import dagger.hilt.android.AndroidEntryPoint;
 

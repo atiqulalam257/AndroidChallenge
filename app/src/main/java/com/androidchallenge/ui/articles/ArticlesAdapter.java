@@ -1,4 +1,4 @@
-package com.androidchallenge.ui;
+package com.androidchallenge.ui.articles;
 
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
